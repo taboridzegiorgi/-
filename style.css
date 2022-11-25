@@ -265,7 +265,10 @@ a{
     background: #23252B;
     padding-bottom: 42px;
 }
-
+.section-two iframe{
+  width: 250px;
+  height: 200px;
+}
 .Extreme {
     width: 135px;
     margin-top: 92px;
@@ -400,5 +403,10 @@ height: 400px;
 @media(max-width:480px){
   .section-home{
     padding: 20px;
+  }
+  .section-two iframe{
+    width: 350px;
+    height: 250px;
+    margin: 15px;
   }
 }
